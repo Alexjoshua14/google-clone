@@ -1,6 +1,7 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
 import TopNav from './TopNav'
+import BottomBar from './BottomBar'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -22,7 +23,7 @@ export default function RootLayout({
           <div className="flex-1">
           {children}
           </div>
-          <div className="border-2 border-purple-500">BOTTOM NAV</div>
+          <BottomBar />
         </div>
       </body>
     </html>
