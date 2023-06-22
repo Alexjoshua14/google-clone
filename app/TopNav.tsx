@@ -3,7 +3,7 @@ import { GiNinjaVelociraptor } from 'react-icons/gi';
 
 const TopNav = () => {
   return (
-    <div className="flex items-center h-14 p-4 justify-between text-sm border-2 border-pink-500">
+    <div className="flex items-center h-14 p-4 justify-between text-sm">
       <div className="flex gap-4 p-2 text-zinc-400">
         <span className="hover:underline cursor-pointer">About</span>
         <span className="hover:underline cursor-pointer">Store</span>
